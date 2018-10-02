@@ -3,11 +3,13 @@ view: usa_1910_2013 {
     ;;
 
   dimension: gender {
+    group_label: "aab"
     type: string
     sql: ${TABLE}.gender ;;
   }
 
   dimension: name {
+    group_label: "aaa"
     type: string
     sql: ${TABLE}.name ;;
   }

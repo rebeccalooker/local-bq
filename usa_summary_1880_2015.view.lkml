@@ -3,11 +3,13 @@ view: usa_summary_1880_2015 {
     ;;
 
   dimension: gender {
+    group_label: "aab"
     type: string
     sql: ${TABLE}.gender ;;
   }
 
   dimension: name {
+    group_label: "aaa"
     type: string
     sql: ${TABLE}.name ;;
   }
